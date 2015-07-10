@@ -1,0 +1,20 @@
+
+(com/mastercard/bdd/mastercard_masterpass/stories/signUp.story)
+Scenario: SignUp
+com.mastercard.bdd.core.TestBase.initialization() (FAILED)
+(org.jbehave.core.failures.BeforeOrAfterFailed: Method initialization (annotated with @BeforeScenario in class com.mastercard.bdd.core.TestBase) failed: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Felipe-2.local', ip: '192.168.1.53', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.4', java.version: '1.8.0_31'
+Driver info: driver.version: Driver)
+Given home mastercard page https://itf.masterpass.mastercard.com/ (NOT PERFORMED)
+And I select country (NOT PERFORMED)
+Given Open SignUp page (NOT PERFORMED)
+Then message on the top of screen should appeared:
+
+|message|
+|Select your wallet below.|
+ (NOT PERFORMED)
+com.mastercard.bdd.core.TestBase.cleanup() (FAILED)
+(org.jbehave.core.failures.BeforeOrAfterFailed: Method cleanup (annotated with @AfterScenario in class com.mastercard.bdd.core.TestBase) failed: java.lang.NullPointerException)
+
+

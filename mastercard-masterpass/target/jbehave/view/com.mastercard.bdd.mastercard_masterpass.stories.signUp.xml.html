@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>com.mastercard.bdd.mastercard_masterpass.stories.signUp</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="com/mastercard/bdd/mastercard_masterpass/stories/signUp.story" title="">
+<scenario keyword="Scenario:" title="SignUp">
+<step outcome="failed" keyword="FAILED">com.mastercard.bdd.core.TestBase.initialization()<failure>org.jbehave.core.failures.BeforeOrAfterFailed: Method initialization (annotated with @BeforeScenario in class com.mastercard.bdd.core.TestBase) failed: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
+System info: host: &apos;Felipe-2.local&apos;, ip: &apos;192.168.1.53&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.4&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: driver.version: Driver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Given home mastercard page <parameter>https://itf.masterpass.mastercard.com/</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And I select country</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Given Open SignUp page</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then message on the top of screen should appeared:
+<parameter><parameters>
+<names><name>message</name></names>
+<values><value>Select your wallet below.</value></values>
+</parameters>
+</parameter></step>
+<step outcome="failed" keyword="FAILED">com.mastercard.bdd.core.TestBase.cleanup()<failure>org.jbehave.core.failures.BeforeOrAfterFailed: Method cleanup (annotated with @AfterScenario in class com.mastercard.bdd.core.TestBase) failed: java.lang.NullPointerException</failure></step>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
